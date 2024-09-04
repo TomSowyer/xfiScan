@@ -1,6 +1,6 @@
 import { expect } from "@playwright/test"
 import { fixtures as test } from "../utils/fixture"
-import { apiUrl } from "../../consts/dashboardConst";
+import { apiUrl } from "../../consts/scanConst";
 
 
 test.describe('Api test', () => {

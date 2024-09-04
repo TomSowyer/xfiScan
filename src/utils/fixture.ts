@@ -1,6 +1,6 @@
 import { test as base } from "@playwright/test" ; 
 import api from "../feartures/APIutils"; 
-import { apiUrl } from "../../consts/dashboardConst";
+import { apiUrl } from "../../consts/scanConst";
 type MyFixtures = {
     API: api;
 };

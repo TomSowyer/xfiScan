@@ -55,6 +55,14 @@ export class Footer{
         const title = this.page.getByRole('link', { name: 'XFI Console' })
         return await title?.textContent();
     }
+    public async getFooterBridge() {
+        const title = this.page.getByRole('link', { name: 'XFI Bridge' })
+        return await title?.textContent();
+    }
+    public async getFooterGetMpx() {
+        const title = this.page.getByRole('link', { name: 'Get MPX' })
+        return await title?.textContent();
+    }
     //License
 
     public async getFooterLicense() {

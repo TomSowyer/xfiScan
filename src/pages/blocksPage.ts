@@ -1,11 +1,11 @@
 import { Page } from "@playwright/test"
 import { BasePage } from "./basePage"
-import { baseUrl, devPass } from "../../consts/dashboardConst"
+import { baseUrl, devPass } from "../../consts/scanConst"
 
-export class DashboardPage extends BasePage {
+export class BlocksPage extends BasePage {
     constructor(page: Page) {
         super(page)
-        this.url = baseUrl.MAIN
+        this.url = baseUrl.BLOCKS
     }
     public async getDevPassField() {
         const title = this.page.getByPlaceholder('Password')

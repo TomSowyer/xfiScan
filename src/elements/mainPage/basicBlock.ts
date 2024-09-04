@@ -41,4 +41,3 @@ export class BasicBlock{
         return await title?.textContent();
     };
 }
-//getByText('$84 139')
